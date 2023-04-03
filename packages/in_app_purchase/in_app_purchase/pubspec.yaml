@@ -20,7 +20,11 @@ flutter:
 dependencies:
   flutter:
     sdk: flutter
-  in_app_purchase_android: ^0.2.3
+  in_app_purchase_android: 
+    git:
+      url: https://github.com/pikenguyen227/packages.git
+      ref: main
+      path: packages/in_app_purchase/in_app_purchase_android
   in_app_purchase_platform_interface: ^1.0.0
   in_app_purchase_storekit:
     git:
